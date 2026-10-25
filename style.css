@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.game {
+    background-color: brown;
+    width: 255px;
+    padding-bottom: 2px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.title {
+    background-color: rgb(106, 10, 10);
+    padding: 5px 0;
+    margin: 5px 0;
+    color: aliceblue;
+}
+
+.title span {
+    color: rgb(0, 0, 0);
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    gap: 4px;
+    justify-content: center;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(106, 10, 10);
+    font-size: 50px;
+    line-height: 80px;
+    color: aliceblue;
+    user-select: none;
+}
+
+.square:hover {
+    background-color: rgb(147, 40, 4);
+    cursor: pointer;
+}
