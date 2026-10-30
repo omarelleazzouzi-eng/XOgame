@@ -47,6 +47,3 @@ Mini TP JavaScript : un jeu de morpion à deux joueurs, en HTML / CSS / JavaScri
 
 HTML5 · CSS3 (Grid) · JavaScript
 
-## 👤 Auteur
-
-Ton nom — mini TP JavaScript
